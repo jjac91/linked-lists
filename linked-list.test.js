@@ -82,7 +82,6 @@ describe("getAt", function() {
     let lst = new LinkedList([5, 10]);
 
     expect(lst.getAt(0)).toBe(5);
-    console.log("test 1 passed")
     expect(lst.getAt(1)).toBe(10);
   });
 });
